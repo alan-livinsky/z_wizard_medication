@@ -1,3 +1,132 @@
 #
 msgid ""
-msgstr "Content-Type: text/plain; charset=utf-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:gnuhealth.medicament,adverse_reaction:"
+msgid "Adverse Reactions"
+msgstr "Reacciones adversas"
+
+msgctxt "field:gnuhealth.medicament,category:"
+msgid "Category"
+msgstr "Categoría"
+
+msgctxt "field:gnuhealth.medicament,form:"
+msgid "Form"
+msgstr "Forma"
+
+msgctxt "field:gnuhealth.medicament,name:"
+msgid "Product"
+msgstr "Producto"
+
+msgctxt "field:gnuhealth.medicament,notes:"
+msgid "Extra Info"
+msgstr "Información adicional"
+
+msgctxt "field:gnuhealth.medicament,pregnancy_category:"
+msgid "Pregnancy Category"
+msgstr "Categoría de embarazo"
+
+msgctxt "field:gnuhealth.medicament,route:"
+msgid "Administration Route"
+msgstr "Vía de administración"
+
+msgctxt "field:gnuhealth.medicament,sol_conc:"
+msgid "Concentration"
+msgstr "Concentración"
+
+msgctxt "field:gnuhealth.medicament,sol_conc_unit:"
+msgid "Unit"
+msgstr "Unidad de concentración"
+
+msgctxt "field:gnuhealth.medicament,sol_vol:"
+msgid "Volume"
+msgstr "Volumen"
+
+msgctxt "field:gnuhealth.medicament,sol_vol_unit:"
+msgid "Unit"
+msgstr "Unidad de volumen"
+
+msgctxt "field:gnuhealth.medicament,storage:"
+msgid "Storage Conditions"
+msgstr "Condiciones de almacenamiento"
+
+msgctxt "field:gnuhealth.medicament,strength:"
+msgid "Strength"
+msgstr "Concentración"
+
+msgctxt "field:gnuhealth.medicament,unit:"
+msgid "dose unit"
+msgstr "Unidad de dosis"
+
+msgctxt "model:ir.action,name:gnuhealth_action_view_medicament"
+msgid "Medicaments"
+msgstr "Medicamentos"
+
+msgctxt "view:gnuhealth.medicament:"
+msgid "Adverse Reactions"
+msgstr "Reacciones adversas"
+
+msgctxt "view:gnuhealth.medicament:"
+msgid "Composition"
+msgstr "Composición"
+
+msgctxt "view:gnuhealth.medicament:"
+msgid "Dosage"
+msgstr "Dosificación"
+
+msgctxt "view:gnuhealth.medicament:"
+msgid "Extra Info"
+msgstr "Información adicional"
+
+msgctxt "view:gnuhealth.medicament:"
+msgid "Form"
+msgstr "Forma"
+
+msgctxt "view:gnuhealth.medicament:"
+msgid "Indications"
+msgstr "Indicaciones"
+
+msgctxt "view:gnuhealth.medicament:"
+msgid "Main"
+msgstr "Principal"
+
+msgctxt "view:gnuhealth.medicament:"
+msgid "Main Info"
+msgstr "Información principal"
+
+msgctxt "view:gnuhealth.medicament:"
+msgid "Notes"
+msgstr "Notas"
+
+msgctxt "view:gnuhealth.medicament:"
+msgid "Overdose"
+msgstr "Sobredosis"
+
+msgctxt "view:gnuhealth.medicament:"
+msgid "Pregnancy"
+msgstr "Embarazo"
+
+msgctxt "view:gnuhealth.medicament:"
+msgid "Presentation"
+msgstr "Presentación"
+
+msgctxt "view:gnuhealth.medicament:"
+msgid "Product"
+msgstr "Producto"
+
+msgctxt "view:gnuhealth.medicament:"
+msgid "Route"
+msgstr "Vía"
+
+msgctxt "view:gnuhealth.medicament:"
+msgid "Solution"
+msgstr "Solución"
+
+msgctxt "view:gnuhealth.medicament:"
+msgid "Storage"
+msgstr "Almacenamiento"
+
+msgctxt "view:gnuhealth.medicament:"
+msgid "strength"
+msgstr "Concentración"
