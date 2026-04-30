@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+
+<!--
+SPDX-FileCopyrightText: 2008-2023 Luis Falcón <falcon@gnuhealth.org>
+SPDX-FileCopyrightText: 2011-2023 GNU Solidario <health@gnusolidario.org>
+
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+
+<form>
+    <group colspan="4" col="10" string="Principal" id="medicament_presentation">
+        <group col="7" string="Producto" id="medicament_product">
+            <field name="name"/>
+        </group>
+        <group string="Concentración" id="medicament_strength">
+            <field name="strength"/>
+            <field name="unit"/>
+        </group>
+        <group col="1" string="Forma" id="medicament_form">
+            <field name="form"/>
+        </group>
+
+        <group col="1" string="Vía" id="medicament_route">
+            <field name="route"/>
+        </group>
+        <newline/>
+
+        <group colspan="4" id="medicament_category">
+            <label name="active_component"/>
+            <field name="active_component"/>
+            <label name="category"/>
+            <field name="category"/>
+        </group>
+
+        <newline/>
+
+        <group colspan="4" col="8" string="Solución" id="medicament_concentration">
+            <label name="sol_conc"/>
+            <field name="sol_conc"/>
+            <label name="sol_conc_unit"/>
+            <field name="sol_conc_unit"/>
+            <label name="sol_vol"/>
+            <field name="sol_vol"/>
+            <label name="sol_vol_unit"/>
+            <field name="sol_vol_unit"/>
+        </group>
+
+    </group>
+    <newline/>
+
+    <notebook>
+        <page string="Información principal" id="medicament_main">
+            <separator string="Indicaciones" colspan="4" id="separator_medication_indication"/>
+            <newline/>
+            <field name="indications" colspan="4"/>
+            <label name="is_vaccine"/>
+            <field name="is_vaccine"/>
+            <label name="active"/>
+            <field name="active"/>
+
+        </page>
+        <page string="Presentación" id="medicament_presentation">
+            <field name="presentation"/>
+        </page>
+        <page string="Composición" id="medicament_composition">
+            <field name="composition"/>
+        </page>
+        <page string="Dosificación" id="medicament_dosage">
+            <field name="dosage"/>
+            <newline/>
+            <separator string="Sobredosis" id="medicament_overdosage"/>
+            <newline/>
+            <field name="overdosage"/>
+        </page>
+        <page string="Embarazo" id="medicament_pregnancy">
+            <label name="pregnancy_warning"/>
+            <field name="pregnancy_warning"/>
+            <label name="pregnancy_category"/>
+            <field name="pregnancy_category"/>
+            <newline/>
+            <separator string="Notas" id="pregnancy_notes" colspan="4"/>
+            <newline/>
+            <field colspan="4" name="pregnancy"/>
+        </page>
+        <page string="Reacciones adversas" id="medicament_adverse_reactions">
+            <field name="adverse_reaction"/>
+        </page>
+        <page string="Almacenamiento" id="medicament_storage">
+            <field name="storage"/>
+        </page>
+        <page string="Información adicional" id="medicament_extra_info">
+            <field name="notes" colspan="4"/>
+        </page>
+    </notebook>
+</form>

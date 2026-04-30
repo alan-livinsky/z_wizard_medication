@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="gnuhealth_create_medicament_start_view">
+            <field name="model">gnuhealth.create_medicament.start</field>
+            <field name="type">form</field>
+            <field name="name">create_medicament_start_form</field>
+        </record>
+        <record model="ir.action.wizard" id="act_create_medicament_wizard">
+            <field name="name">Crear medicamento</field>
+            <field name="wiz_name">gnuhealth.create_medicament.wizard</field>
+        </record>
+
+        <menuitem id="create_medicament_menu"
+                action="act_create_medicament_wizard"
+                parent="health.gnuhealth_prescription_menu" sequence="10"/>
+    </data>
+</tryton>
