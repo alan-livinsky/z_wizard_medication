@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="gnuhealth_medicament_form_inherit">
+            <field name="model">gnuhealth.medicament</field>
+            <field name="inherit" ref="health.gnuhealth_medicament_form"/>
+            <field name="name">gnuhealth_medicament_form_inherit</field>
+        </record>
+    </data>
+</tryton>
